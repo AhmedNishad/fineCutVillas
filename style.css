@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Do+Hyeon');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 *{
     margin: 0;
@@ -7,6 +8,11 @@
 
 .container{
     margin: 1em;
+}
+
+body{
+    background: rgb(226, 215, 215);
+    font-family:  'Montserrat', sans-serif;;
 }
 
 /* Awesome Branding */
@@ -65,6 +71,7 @@ header{
 .awesome-branding nav li{
     display: inline-block;
     padding: 10px;
+    font-size: 0.8em;
 }
 
 .awesome-branding nav li:hover{
@@ -84,12 +91,12 @@ header{
     flex-basis: 100%;;
     text-align: right;
     background: #bebebe88;
-    
+    font-size: 1.1em;
 }
 
 .contact img{
-    height: 1em;
-    width: 1em;
+    height: 1.1em;
+    width: 1.1em;
 }
 
 /* More Section */
@@ -97,7 +104,7 @@ header{
 .more{
     background: white;
     width: 30%;
-    height: 15vw;
+    height: fit-content;
     margin-left: 10vw;
     margin-top: 8vw;
     display: flex;
@@ -121,6 +128,7 @@ header{
     background: #e69c1b;
     color: azure;
     border: 0;
+    height: 2.4em;;
     flex-basis: 40%;
     margin-left: 17.5vw;
 }
@@ -129,7 +137,7 @@ header{
 
 .back-images{
     display: flex;
-    background: white;
+    background: rgb(226, 215, 215);
     width: fit-content;
     margin: auto;
     justify-content: space-between;
@@ -145,4 +153,74 @@ header{
 
 .back-images img:last-child{
     padding-right: 0; 
+}
+
+/* Project styles */
+
+.project-head{
+    width: 40vw;
+    margin: auto;
+    text-align: center;
+    margin-top: 5vw; 
+}
+
+.project-head img{
+    height: 2em;
+    width: 9em;
+}
+
+.project-head h3{
+    color: rgb(105, 105, 105);
+}
+
+.location-icon{
+    width: 1em;
+    height: 1em;;
+}
+
+.project-list{
+    margin-top: 5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    box-sizing: content-box;
+}
+
+.project{
+    flex-basis: 200px;
+    background: white;
+    margin: 0.6em;
+    padding: 1em;
+}
+
+.project h2{
+    padding: 0.5em;
+}
+
+.project img:hover{
+
+        opacity: 0.4;
+    
+}
+
+.project-view{
+    width: max-content;
+    margin: auto;
+    margin-top: 2em;
+}
+
+.project-view button{
+    background: #e69c1b;
+    color: azure;
+    border: 0;
+    padding: 1.2em;
+    text-align: center;
+    width: max-content;
+    margin: auto;
+}
+
+.project-list img:not(.location-icon){
+    height: 130px;
+    width: 260px;
+    object-position: cover;
 }
