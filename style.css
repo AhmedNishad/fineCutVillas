@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 1em;
+}
+
+/* Awesome Branding */
+
+.awesome-branding{
+    background-image: url('./back1.jpg');
+    background-size: cover;
+    height: auto;
+    overflow: initial;
+}
+
+/* Branding
+
+Header */
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em 10em;
+}
+
+/* Logo */
+
+.logo-nav-cont{
+    border-bottom: 2px solid white;
+    display: flex;
+}
+
+.logo{
+    align-self: flex-end;
+    width: 20vw;
+}
+
+.logo img{
+    width: 150px;
+    height: 75px;
+}
+
+/* Navigation */
+
+.awesome-branding nav{
+    display: flex;
+    margin-left: 8vw;
+    color: white;
+    flex-basis: 40vw;
+}
+
+.awesome-branding nav ul{
+    list-style: none;
+    align-self: flex-end;
+    background: rgba(0, 0, 0, 0.623);
+}
+
+.awesome-branding nav li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.awesome-branding nav li:hover{
+    background: rgb(255, 254, 254);
+    color: #27241f;
+}
+
+.nav-active{
+    background: rgb(255, 254, 254);
+    color: #27241f;
+}
+
+
+/* Contact */
+
+.contact{
+    flex-basis: 100%;;
+    text-align: right;
+    background: #bebebe88;
+}
+
+.contact img{
+    height: 1em;
+    width: 1em;
+}
+
+/* More Section */
+
+.more{
+    background: white;
+    width: 30%;
+    height: 15vw;
+    margin-left: 10vw;
+    margin-top: 8vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.more h1,h3{
+    flex-basis: 100%;
+}
+
+.more h1{
+    padding: 0.4em 0 0 0.9em;
+}
+
+.more h3{
+    padding: 0 0 0 0.6em;
+}
+
+.more button{
+    background: #e69c1b;
+    color: azure;
+    border: 0;
+    flex-basis: 40%;
+    margin-left: 17.5vw;
+}
+
+/* background Image Section */
+
+.back-images{
+    display: flex;
+    background: white;
+    width: fit-content;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 11vw;
+}
+
+.back-images img{
+    padding: 1em;
+    width: 18vw;
+    height: 9vw;
+    
+}
